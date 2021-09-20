@@ -1,0 +1,181 @@
+.grilla-general {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 1.5fr 1.6fr 0.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "navegador" "recepcion" "recepcion-secundaria" "pie-pagina"; }
+
+.navegador {
+  grid-area: navegador; }
+
+.recepcion {
+  grid-area: recepcion;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .recepcion .recepcion__izquierda {
+    margin-left: 15px;
+    width: 50%;
+    height: 500px;
+    padding-right: 20px; }
+    .recepcion .recepcion__izquierda .recepcion__izquierda--texto {
+      padding-right: 20px; }
+  .recepcion .recepcion__derecha {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 70%;
+    margin-right: 5px;
+    margin-left: 5px; }
+    .recepcion .recepcion__derecha .recepcion__derecha--imagen {
+      max-width: 100%;
+      height: auto;
+      width: auto; }
+
+.recepcion-secundaria {
+  grid-area: recepcion-secundaria;
+  margin-top: 50px;
+  background-color: #a2a2a2; }
+
+.pie-pagina {
+  grid-area: pie-pagina; }
+
+html body {
+  position: relative;
+  margin: 0px;
+  width: 100%; }
+
+.navbar {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: larger;
+  font-weight: bold; }
+
+.recepcion-secundaria {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .recepcion-secundaria h1 {
+    color: white;
+    font-family: "Yantramanav", sans-serif;
+    font-size: 55px;
+    display: flex;
+    line-height: 55px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    justify-content: center; }
+  .recepcion-secundaria p {
+    color: white;
+    font-family: "Yantramanav", sans-serif;
+    font-size: 30px;
+    display: flex;
+    text-align: justify;
+    line-height: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    line-height: 40px;
+    justify-content: center; }
+
+.recepcion__izquierda h1 {
+  color: black;
+  font-family: "Yantramanav", sans-serif;
+  font-size: 85px;
+  display: flex;
+  line-height: 65px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  justify-content: center; }
+
+.recepcion__izquierda h2 {
+  color: black;
+  font-family: "Yantramanav", sans-serif;
+  display: flex;
+  justify-content: center; }
+
+.recepcion__izquierda ul {
+  color: black;
+  font-family: "Yantramanav", sans-serif; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  height: 100%; }
+  .footer .pie-pagina {
+    align-self: center;
+    font-family: "Yantramanav", sans-serif; }
+
+.boton-facebook {
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 6px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 7px 16px;
+  text-decoration: none; }
+
+.boton-instagram {
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #b87fce;
+  border-radius: 6px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 7px 16px;
+  text-decoration: none; }
+
+@media (max-width: 790px) {
+  .recepcion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center; }
+    .recepcion .recepcion__izquierda {
+      width: 100%;
+      height: 25%;
+      align-self: center; }
+    .recepcion .recepcion__derecha {
+      height: 550px;
+      width: 100%;
+      align-self: center; } }
+
+@media (max-width: 450px) {
+  .grilla-general {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 1.2fr 1.6fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "navegador" "recepcion" "recepcion-secundaria" "pie-pagina"; }
+  .recepcion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center; }
+    .recepcion .recepcion__izquierda {
+      width: 100%;
+      height: 10%;
+      align-self: center; }
+    .recepcion .recepcion__derecha {
+      height: 350px;
+      width: 100%;
+      align-self: center; } }

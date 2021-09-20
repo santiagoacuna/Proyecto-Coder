@@ -1,0 +1,71 @@
+.grilla-general {
+    
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1.5fr 1.6fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    
+    "navegador"
+    "recepcion"
+    "recepcion-secundaria"
+    "pie-pagina";
+  }
+  
+  .navegador { grid-area: navegador; }
+  
+  .recepcion { grid-area: recepcion;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  
+
+    .recepcion__izquierda {
+
+      margin-left: 15px;
+      width: 50%;
+      height: 500px;
+      padding-right: 20px;
+
+      .recepcion__izquierda--texto{
+
+        padding-right: 20px;
+      }
+      
+    }
+
+    .recepcion__derecha {
+
+      display: flex;
+      justify-content: center;  
+      width: 50%;
+      height: 70%;
+      margin-right: 5px;
+      margin-left:5px;
+
+      
+      .recepcion__derecha--imagen{
+
+
+        max-width: 100%;
+        height: auto;
+        width: auto;
+
+      }
+    }
+
+  
+  }
+  
+  .recepcion-secundaria { grid-area: recepcion-secundaria;
+    margin-top: 50px;
+    background-color: $color-fondos;
+  }
+  
+  .pie-pagina { grid-area: pie-pagina; }
+  
+  
