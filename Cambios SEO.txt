@@ -1,0 +1,13 @@
+
+Cambie el formato de logo por un archivo .svg
+Agregue las descripciones ALT a las IMG
+Agregue los campos meta keywords
+Agregue los campos meta description
+Agregue pagina Error 404
+Reduje la paleta de colores a una con menos bits
+Optimicé los tamaños de la imagenes
+URL cortas y descriptivas
+Hice una navegación clara para los buscadores
+Realicé la revisión ortográfica
+Incorporé textos bien escritos y faciles de entender
+Generé los Query para que la web sea responsive
