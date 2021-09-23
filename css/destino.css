@@ -185,29 +185,3 @@ html body {
       height: 350px;
       width: 100%;
       align-self: center; } }
-
-@media (max-width: 375px) {
-  .grilla-general {
-    padding: 10px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 1.2fr 1.6fr 0.5fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: "navegador" "recepcion" "recepcion-secundaria" "pie-pagina"; }
-  .recepcion {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-self: center; }
-    .recepcion .recepcion__izquierda {
-      width: 100%;
-      height: 10%;
-      align-self: center; }
-      .recepcion .recepcion__izquierda .recepcion__izquierda--texto {
-        width: auto;
-        padding-right: 20px; }
-    .recepcion .recepcion__derecha {
-      height: 350px;
-      width: 100%;
-      align-self: center; } }
