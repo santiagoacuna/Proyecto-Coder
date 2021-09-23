@@ -1,6 +1,7 @@
 .footer {
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-self: center;
     width: 100%;
@@ -10,25 +11,36 @@
 
         align-self: center;
         font-family: $font;
+        justify-content: center;
 
     }
+    .pie-pagina__redes{
+
+        font-family: $font;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+
 }
+
 
 $redes:(
     facebook: #599bb3,
-    instagram:#b87fce
+    instagram:#a473b8
 );
 
 @each $red, $color  in $redes{
 .boton-#{$red}{
 
-    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
-	background-color:$color;
+    background:$color;
 	border-radius:6px;
+    margin: 2px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family:$font;
 	font-size:13px;
 	font-weight:bold;
 	padding:7px 16px;
