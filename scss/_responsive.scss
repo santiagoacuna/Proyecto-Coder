@@ -9,6 +9,7 @@
 
         .recepcion__izquierda{
 
+            margin-top: 0px;
             width: 100%;
             height: 25%;   
             align-self: center;
@@ -52,9 +53,69 @@
 
         .recepcion__izquierda{
 
+            margin-top: 15px;
             width: 100%;
             height: 10%;   
             align-self: center;
+
+        }
+
+        .recepcion__derecha{
+
+            height: 350px;
+            width: 100%;
+            align-self: center;
+
+        }
+
+    }
+}
+
+@media (max-width: 375px) {
+
+    .grilla-general {
+    
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 1.0fr 1.6fr 0.5fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        
+        "navegador"
+        "recepcion"
+        "recepcion-secundaria"
+        "pie-pagina";
+    }
+
+    .recepcion {
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-self: center;
+
+        .recepcion__izquierda{
+
+            width: 100%;
+            height: 10%;   
+            align-self: center;
+
+            .recepcion__izquierda--texto{
+
+                font-size: 60px;
+                margin-left: 15px;
+
+            }
+
+        .recepcion__derecha--imagen {
+
+            width: auto;
+            height: auto;
+
+        }
+            
 
         }
 
