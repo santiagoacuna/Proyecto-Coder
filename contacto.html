@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gelum es la distribuidora oficial de Grido Helados en Zona Oeste.">
+    <meta name="keywords" content="Helado, Distribuidora, Grido, Comercio, Kiosco, Oeste, Comercializar">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.1.0-dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="css/destino.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Productos</title>
+</head>
+<body>
+
+    <div class="grilla-general">
+        <div class="navegador">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white bg-gradient text-secondary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/logo.svg" alt="Imagen Logo" width="130" height="55">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <div class="navbar-nav">
+                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" aria-current="page"" href="productos.html">Productos</a>
+                            <a class="nav-link" href="requisitos.html">Requisitos</a>
+                            <a class="nav-link" href="ventajas.html">Ventajas</a>
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                
+        </div>     
+        <div class="recepcion" class="d-flex justify-content-center">
+            <div class="col-md-7 col-lg-8">
+                <h3 class="mb-3">¿Querés vender Grido?</h3>
+                <h5 class="mb-3">Completá el formulario y te contactará un ejecutivo.</h5>
+                <form class="needs-validation" novalidate="" method="POST" action="mailto:distribuidoragelum@gmail.com">
+                  <div class="row g-3">
+                    <div class="col-sm-6">
+                      <label for="firstName" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                      <div class="invalid-feedback">
+                        Valid first name is required.
+                      </div>
+                    </div>
+        
+                    <div class="col-sm-6">
+                      <label for="lastName" class="form-label">Apellido</label>
+                      <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                      <div class="invalid-feedback">
+                        Valid last name is required.
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+                      <div class="invalid-feedback">
+                        Ingrese un mail valido.
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <label for="address" class="form-label">Dirección</label>
+                      <input type="text" class="form-control" id="address" placeholder="1234 Calle" required="">
+                      <div class="invalid-feedback">
+                        Ingrese dirección.
+                      </div>
+                    </div>
+
+                    <div class="col-md-5">
+                      <label for="country" class="form-label">Provincia</label>
+                      <select class="form-select" id="country" required="">
+                        <option value="">Seleccione...</option>
+                        <option>Buenos Aires</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Seleccione una Provincia.
+                      </div>
+                    </div>
+        
+                    <div class="col-md-4">
+                      <label for="state" class="form-label">Localidad</label>
+                      <select class="form-select" id="state" required="">
+                        <option value="">Seleccione...</option>
+                        <option>Chivilcoy</option>
+                        <option>General Rodríguez</option>
+                        <option>Morón</option>
+                        <option>Castelar</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Seleccione una localidad.
+                      </div>
+                    </div>
+        
+                    <div class="col-md-3">
+                      <label for="zip" class="form-label">Código Postal</label>
+                      <input type="text" class="form-control" id="zip" placeholder="" required="">
+                      <div class="invalid-feedback">
+                        Indique Código Postal.
+                      </div>
+                    </div>
+                  </div>
+        
+                  <hr class="my-4">
+
+                  <button class="w-100 btn btn-secondary btn-lg" type="submit">Enviar</button>
+                </form>
+              </div>
+        </div>
+        <div class="recepcion-secundaria" >
+            <h1 data-aos="zoom-in-up" data-aos-duration="1500">
+                Somos Distribuidora Gelum.
+            </h1>
+            <p data-aos="zoom-in-up" data-aos-duration="1500">
+                Distribuidores oficial de Grido Helados en Zona Oeste.
+                Si usted es propietario de un kiosco, despensa, almacén,
+                drugstore, shop, mercado, etc, y desea comercializar nuestros 
+                productos en su local, ahora cuenta con la posibilidad de 
+                hacerlo a través de nuestra nueva propuesta: “Grido en tu comercio”.
+            </p>
+        </div>
+        <footer class="footer mt-auto py-8 bg-light">
+            <div class="pie-pagina">
+                <span class="text-muted">Copyright © Todos los derechos reservados - Gelum SAS</span>
+                <div class="pie-pagina__redes">
+                <a href="https://www.instagram.com/distrigelum/" class="boton-facebook">Facebook</a>
+                <a href="https://www.instagram.com/distrigelum/" class="boton-instagram">Instagram</a>
+                </div> 
+            </div>
+        </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+        </script>
+</body>
+</html>
