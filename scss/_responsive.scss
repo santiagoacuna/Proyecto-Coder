@@ -1,4 +1,10 @@
+/*  Inicio Estilo para dar aspecto responsive con Max Widht a 790px */
+
 @media (max-width: 790px) {
+
+    .grilla-general {
+        
+        margin-right: 10px;
 
     .recepcion {
 
@@ -25,6 +31,9 @@
 
     }
 }
+}
+
+/*  Inicio Estilo para dar aspecto responsive con Max Widht a 450px */
 
 @media (max-width: 450px) {
 
@@ -71,6 +80,8 @@
 
     }
 }
+
+/*  Inicio Estilo para dar aspecto responsive con Max Widht a 375px */
 
 @media (max-width: 375px) {
 

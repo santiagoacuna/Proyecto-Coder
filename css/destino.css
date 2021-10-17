@@ -1,4 +1,5 @@
 .grilla-general {
+  margin-right: 10px;
   margin-top: 75px;
   padding: 10px;
   display: grid;
@@ -37,7 +38,7 @@
 .recepcion-secundaria {
   grid-area: recepcion-secundaria;
   margin-top: 50px;
-  background-color: #a2a2a2; }
+  background-color: #7c7b7b; }
 
 .pie-pagina {
   grid-area: pie-pagina; }
@@ -129,6 +130,7 @@ h5 {
     margin-top: 35px;
     align-self: center;
     font-family: "Yantramanav", sans-serif;
+    font-weight: bold;
     justify-content: center; }
   .footer .pie-pagina__redes {
     font-family: "Yantramanav", sans-serif;
@@ -164,20 +166,22 @@ h5 {
   text-decoration: none; }
 
 @media (max-width: 790px) {
-  .recepcion {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-self: center; }
-    .recepcion .recepcion__izquierda {
-      margin-top: 0px;
-      width: 100%;
-      height: 25%;
+  .grilla-general {
+    margin-right: 10px; }
+    .grilla-general .recepcion {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       align-self: center; }
-    .recepcion .recepcion__derecha {
-      height: 550px;
-      width: 100%;
-      align-self: center; } }
+      .grilla-general .recepcion .recepcion__izquierda {
+        margin-top: 0px;
+        width: 100%;
+        height: 25%;
+        align-self: center; }
+      .grilla-general .recepcion .recepcion__derecha {
+        height: 550px;
+        width: 100%;
+        align-self: center; } }
 
 @media (max-width: 450px) {
   .grilla-general {
